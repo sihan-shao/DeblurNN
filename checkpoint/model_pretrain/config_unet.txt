@@ -1,0 +1,27 @@
+comments: Parameters for optical and neural network system
+network:
+  batch_size: 8
+  epoch: 100
+  image_size:
+  - 256
+  - 256
+  net: unet
+  nn_lr: 0.001
+  num_workers: 8
+optics:
+  aperture_diameter: 0.007
+  delta_s: 5.0e-05
+  f_green: 0.035
+  hardware_lr: 0.02
+  n_lambda:
+  - 1.4571
+  - 1.461
+  - 1.465
+  wavelength:
+  - 6.3e-07
+  - 5.25e-07
+  - 4.58e-07
+  z_far: 2.2
+  z_near: 1.84
+  zf: 2
+  zs: 0.035623409669211195

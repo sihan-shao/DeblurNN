@@ -5,6 +5,8 @@ checkpoint/20241126-003409_total_epoch_200_batch_size_8_lr_0.001/
 checkpoint/20241128-101522_total_epoch_100_batch_size_8_lr_0.001/
 checkpoint/20241128-121637_total_epoch_100_batch_size_8_lr_0.001/
 checkpoint/20241128-133718_total_epoch_100_batch_size_2_lr_0.0001/
-checkpoint/model_pretrain/
-
+checkpoint/model_pretrain/restormer_L1.pth
+checkpoint/model_pretrain/restormer_L2.pth
+checkpoint/model_pretrain/Unet_L1.pth
+checkpoint/model_pretrain/Unet_L2.pth
 
