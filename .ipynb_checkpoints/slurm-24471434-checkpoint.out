@@ -1,0 +1,701 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) csc-tools
+NOTE: This module uses Apptainer (Singularity). Some commands execute inside
+the container (e.g. python3, pip3).
+
+/appl/soft/ai/bin/torchrun
+[2024-11-25 16:43:27,754] torch.distributed.run: [WARNING] 
+[2024-11-25 16:43:27,754] torch.distributed.run: [WARNING] *****************************************
+[2024-11-25 16:43:27,754] torch.distributed.run: [WARNING] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+[2024-11-25 16:43:27,754] torch.distributed.run: [WARNING] *****************************************
+[W socket.cpp:464] [c10d] The server socket cannot be initialized on [::]:0 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [localhost]:42475 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [localhost]:42475 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [localhost]:42475 (errno: 97 - Address family not supported by protocol).
+/scratch/project_2010479/TAU_DSII
+/scratch/project_2010479/TAU_DSII
+/scratch/project_2010479/TAU_DSII/scratch/project_2010479/TAU_DSII
+
+{'comments': 'Parameters for optical and neural network system', 'network': {'batch_size': 16, 'epoch': 200, 'image_size': [512, 512], 'net': 'unet', 'nn_lr': 0.01, 'num_workers': 8}, 'optics': {'aperture_diameter': 0.007, 'delta_s': 5e-05, 'f_green': 0.035, 'n_lambda': [1.4571, 1.461, 1.465], 'wavelength': [6.3e-07, 5.25e-07, 4.58e-07], 'z_far': 2.2, 'z_near': 1.84, 'zf': 2, 'zs': 0.035623409669211195, 'hardware_lr': 0.02}}
+{'comments': 'Parameters for optical and neural network system', 'network': {'batch_size': 16, 'epoch': 200, 'image_size': [512, 512], 'net': 'unet', 'nn_lr': 0.01, 'num_workers': 8}, 'optics': {'aperture_diameter': 0.007, 'delta_s': 5e-05, 'f_green': 0.035, 'n_lambda': [1.4571, 1.461, 1.465], 'wavelength': [6.3e-07, 5.25e-07, 4.58e-07], 'z_far': 2.2, 'z_near': 1.84, 'zf': 2, 'zs': 0.035623409669211195, 'hardware_lr': 0.02}}
+{'comments': 'Parameters for optical and neural network system', 'network': {'batch_size': 16, 'epoch': 200, 'image_size': [512, 512], 'net': 'unet', 'nn_lr': 0.01, 'num_workers': 8}, 'optics': {'aperture_diameter': 0.007, 'delta_s': 5e-05, 'f_green': 0.035, 'n_lambda': [1.4571, 1.461, 1.465], 'wavelength': [6.3e-07, 5.25e-07, 4.58e-07], 'z_far': 2.2, 'z_near': 1.84, 'zf': 2, 'zs': 0.035623409669211195, 'hardware_lr': 0.02}}
+{'comments': 'Parameters for optical and neural network system', 'network': {'batch_size': 16, 'epoch': 200, 'image_size': [512, 512], 'net': 'unet', 'nn_lr': 0.01, 'num_workers': 8}, 'optics': {'aperture_diameter': 0.007, 'delta_s': 5e-05, 'f_green': 0.035, 'n_lambda': [1.4571, 1.461, 1.465], 'wavelength': [6.3e-07, 5.25e-07, 4.58e-07], 'z_far': 2.2, 'z_near': 1.84, 'zf': 2, 'zs': 0.035623409669211195, 'hardware_lr': 0.02}}
+Total utilized GPUs 4
+Total utilized GPUs 4
+[W socket.cpp:464] [c10d] The server socket cannot be initialized on [::]:55589 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [r01g01.bullx]:55589 (errno: 97 - Address family not supported by protocol).
+Total utilized GPUs 4
+Total utilized GPUs 4
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [r01g01.bullx]:55589 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [r01g01.bullx]:55589 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [r01g01.bullx]:55589 (errno: 97 - Address family not supported by protocol).
+/usr/local/lib64/python3.9/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib64/python3.9/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=VGG19_Weights.IMAGENET1K_V1`. You can also use `weights=VGG19_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/usr/local/lib64/python3.9/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib64/python3.9/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=VGG19_Weights.IMAGENET1K_V1`. You can also use `weights=VGG19_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/usr/local/lib64/python3.9/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib64/python3.9/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=VGG19_Weights.IMAGENET1K_V1`. You can also use `weights=VGG19_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/usr/local/lib64/python3.9/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib64/python3.9/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=VGG19_Weights.IMAGENET1K_V1`. You can also use `weights=VGG19_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+------- Imaging System ---------
+Camera(
+  (source): PlaneWave()
+  (pupil): GeneralizedPupil()
+  (sensor): Sensor()
+)
+------- Network ---------
+------- Imaging System ---------
+Camera(
+  (source): PlaneWave()
+  (pupil): GeneralizedPupil()
+  (sensor): Sensor()
+)
+------- Network ---------
+------- Imaging System ---------
+Camera(
+  (source): PlaneWave()
+  (pupil): GeneralizedPupil()
+  (sensor): Sensor()
+)
+------- Network ---------
+------- Imaging System ---------
+Camera(
+  (source): PlaneWave()
+  (pupil): GeneralizedPupil()
+  (sensor): Sensor()
+)
+------- Network ---------
++------------------------+------------+
+|        Modules         | Parameters |
++------------------------+------------+
+|      pre.0.weight      |    432     |
+|       pre.0.bias       |     16     |
+|      pre.1.weight      |     16     |
+| conv00.main.0.0.weight |    2304    |
+|  conv00.main.0.0.bias  |     16     |
+| conv00.main.0.1.weight |     16     |
+| conv00.main.1.0.weight |    2304    |
+|  conv00.main.1.0.bias  |     16     |
+| conv00.main.1.1.weight |     16     |
+| conv00.main.2.0.weight |    2304    |
+|  conv00.main.2.0.bias  |     16     |
+| conv00.main.2.1.weight |     16     |
+|  conv00.post.0.weight  |   18432    |
+|   conv00.post.0.bias   |     32     |
+|  conv00.post.1.weight  |     32     |
+| conv10.main.0.0.weight |    9216    |
+|  conv10.main.0.0.bias  |     32     |
+| conv10.main.0.1.weight |     32     |
+| conv10.main.1.0.weight |    9216    |
+|  conv10.main.1.0.bias  |     32     |
+| conv10.main.1.1.weight |     32     |
+| conv10.main.2.0.weight |    9216    |
+|  conv10.main.2.0.bias  |     32     |
+| conv10.main.2.1.weight |     32     |
+|  conv10.post.0.weight  |   73728    |
+|   conv10.post.0.bias   |     64     |
+|  conv10.post.1.weight  |     64     |
+| conv20.main.0.0.weight |   36864    |
+|  conv20.main.0.0.bias  |     64     |
+| conv20.main.0.1.weight |     64     |
+| conv20.main.1.0.weight |   36864    |
+|  conv20.main.1.0.bias  |     64     |
+| conv20.main.1.1.weight |     64     |
+| conv20.main.2.0.weight |   36864    |
+|  conv20.main.2.0.bias  |     64     |
+| conv20.main.2.1.weight |     64     |
+|  conv20.post.0.weight  |   294912   |
+|   conv20.post.0.bias   |    128     |
+|  conv20.post.1.weight  |    128     |
+| conv30.main.0.0.weight |   147456   |
+|  conv30.main.0.0.bias  |    128     |
+| conv30.main.0.1.weight |    128     |
+| conv30.main.1.0.weight |   147456   |
+|  conv30.main.1.0.bias  |    128     |
+| conv30.main.1.1.weight |    128     |
+| conv30.main.2.0.weight |   147456   |
+|  conv30.main.2.0.bias  |    128     |
+| conv30.main.2.1.weight |    128     |
+|  conv30.post.0.weight  |  1179648   |
+|   conv30.post.0.bias   |    256     |
+|  conv30.post.1.weight  |    256     |
+| conv31.main.0.0.weight |   589824   |
+|  conv31.main.0.0.bias  |    256     |
+| conv31.main.0.1.weight |    256     |
+| conv31.main.1.0.weight |   589824   |
+|  conv31.main.1.0.bias  |    256     |
+| conv31.main.1.1.weight |    256     |
+| conv31.main.2.0.weight |   589824   |
+|  conv31.main.2.0.bias  |    256     |
+| conv31.main.2.1.weight |    256     |
+|  conv31.post.0.weight  |  4718592   |
+|   conv31.post.0.bias   |    512     |
+|  conv31.post.1.weight  |    512     |
+| conv21.main.0.0.weight |   147456   |
+|  conv21.main.0.0.bias  |    128     |
+| conv21.main.0.1.weight |    128     |
+| conv21.main.1.0.weight |   147456   |
+|  conv21.main.1.0.bias  |    128     |
+| conv21.main.1.1.weight |    128     |
+| conv21.main.2.0.weight |   147456   |
+|  conv21.main.2.0.bias  |    128     |
+| conv21.main.2.1.weight |    128     |
+|  conv21.post.0.weight  |  1179648   |
+|   conv21.post.0.bias   |    256     |
+|  conv21.post.1.weight  |    256     |
+| conv11.main.0.0.weight |   36864    |
+|  conv11.main.0.0.bias  |     64     |
+| conv11.main.0.1.weight |     64     |
+| conv11.main.1.0.weight |   36864    |
+|  conv11.main.1.0.bias  |     64     |
+| conv11.main.1.1.weight |     64     |
+| conv11.main.2.0.weight |   36864    |
+|  conv11.main.2.0.bias  |     64     |
+| conv11.main.2.1.weight |     64     |
+|  conv11.post.0.weight  |   294912   |
+|   conv11.post.0.bias   |    128     |
+|  conv11.post.1.weight  |    128     |
+| conv01.main.0.0.weight |    9216    |
+|  conv01.main.0.0.bias  |     32     |
+| conv01.main.0.1.weight |     32     |
+| conv01.main.1.0.weight |    9216    |
+|  conv01.main.1.0.bias  |     32     |
+| conv01.main.1.1.weight |     32     |
+| conv01.main.2.0.weight |    9216    |
+|  conv01.main.2.0.bias  |     32     |
+| conv01.main.2.1.weight |     32     |
+|  conv01.post.0.weight  |   73728    |
+|   conv01.post.0.bias   |     64     |
+|  conv01.post.1.weight  |     64     |
+|     post.0.weight      |    9216    |
+|      post.0.bias       |     16     |
+|     post.1.weight      |     16     |
+|     post.2.weight      |    432     |
+|      post.2.bias       |     3      |
++------------------------+------------+
+Total Trainable Params: 10788547
++------------------------+------------+
+|        Modules         | Parameters |
++------------------------+------------+
+|      pre.0.weight      |    432     |
+|       pre.0.bias       |     16     |
+|      pre.1.weight      |     16     |
+| conv00.main.0.0.weight |    2304    |
+|  conv00.main.0.0.bias  |     16     |
+| conv00.main.0.1.weight |     16     |
+| conv00.main.1.0.weight |    2304    |
+|  conv00.main.1.0.bias  |     16     |
+| conv00.main.1.1.weight |     16     |
+| conv00.main.2.0.weight |    2304    |
+|  conv00.main.2.0.bias  |     16     |
+| conv00.main.2.1.weight |     16     |
+|  conv00.post.0.weight  |   18432    |
+|   conv00.post.0.bias   |     32     |
+|  conv00.post.1.weight  |     32     |
+| conv10.main.0.0.weight |    9216    |
+|  conv10.main.0.0.bias  |     32     |
+| conv10.main.0.1.weight |     32     |
+| conv10.main.1.0.weight |    9216    |
+|  conv10.main.1.0.bias  |     32     |
+| conv10.main.1.1.weight |     32     |
+| conv10.main.2.0.weight |    9216    |
+|  conv10.main.2.0.bias  |     32     |
+| conv10.main.2.1.weight |     32     |
+|  conv10.post.0.weight  |   73728    |
+|   conv10.post.0.bias   |     64     |
+|  conv10.post.1.weight  |     64     |
+| conv20.main.0.0.weight |   36864    |
+|  conv20.main.0.0.bias  |     64     |
+| conv20.main.0.1.weight |     64     |
+| conv20.main.1.0.weight |   36864    |
+|  conv20.main.1.0.bias  |     64     |
+| conv20.main.1.1.weight |     64     |
+| conv20.main.2.0.weight |   36864    |
+|  conv20.main.2.0.bias  |     64     |
+| conv20.main.2.1.weight |     64     |
+|  conv20.post.0.weight  |   294912   |
+|   conv20.post.0.bias   |    128     |
+|  conv20.post.1.weight  |    128     |
+| conv30.main.0.0.weight |   147456   |
+|  conv30.main.0.0.bias  |    128     |
+| conv30.main.0.1.weight |    128     |
+| conv30.main.1.0.weight |   147456   |
+|  conv30.main.1.0.bias  |    128     |
+| conv30.main.1.1.weight |    128     |
+| conv30.main.2.0.weight |   147456   |
+|  conv30.main.2.0.bias  |    128     |
+| conv30.main.2.1.weight |    128     |
+|  conv30.post.0.weight  |  1179648   |
+|   conv30.post.0.bias   |    256     |
+|  conv30.post.1.weight  |    256     |
+| conv31.main.0.0.weight |   589824   |
+|  conv31.main.0.0.bias  |    256     |
+| conv31.main.0.1.weight |    256     |
+| conv31.main.1.0.weight |   589824   |
+|  conv31.main.1.0.bias  |    256     |
+| conv31.main.1.1.weight |    256     |
+| conv31.main.2.0.weight |   589824   |
+|  conv31.main.2.0.bias  |    256     |
+| conv31.main.2.1.weight |    256     |
+|  conv31.post.0.weight  |  4718592   |
+|   conv31.post.0.bias   |    512     |
+|  conv31.post.1.weight  |    512     |
+| conv21.main.0.0.weight |   147456   |
+|  conv21.main.0.0.bias  |    128     |
+| conv21.main.0.1.weight |    128     |
+| conv21.main.1.0.weight |   147456   |
+|  conv21.main.1.0.bias  |    128     |
+| conv21.main.1.1.weight |    128     |
+| conv21.main.2.0.weight |   147456   |
+|  conv21.main.2.0.bias  |    128     |
+| conv21.main.2.1.weight |    128     |
+|  conv21.post.0.weight  |  1179648   |
+|   conv21.post.0.bias   |    256     |
+|  conv21.post.1.weight  |    256     |
+| conv11.main.0.0.weight |   36864    |
+|  conv11.main.0.0.bias  |     64     |
+| conv11.main.0.1.weight |     64     |
+| conv11.main.1.0.weight |   36864    |
+|  conv11.main.1.0.bias  |     64     |
+| conv11.main.1.1.weight |     64     |
+| conv11.main.2.0.weight |   36864    |
+|  conv11.main.2.0.bias  |     64     |
+| conv11.main.2.1.weight |     64     |
+|  conv11.post.0.weight  |   294912   |
+|   conv11.post.0.bias   |    128     |
+|  conv11.post.1.weight  |    128     |
+| conv01.main.0.0.weight |    9216    |
+|  conv01.main.0.0.bias  |     32     |
+| conv01.main.0.1.weight |     32     |
+| conv01.main.1.0.weight |    9216    |
+|  conv01.main.1.0.bias  |     32     |
+| conv01.main.1.1.weight |     32     |
+| conv01.main.2.0.weight |    9216    |
+|  conv01.main.2.0.bias  |     32     |
+| conv01.main.2.1.weight |     32     |
+|  conv01.post.0.weight  |   73728    |
+|   conv01.post.0.bias   |     64     |
+|  conv01.post.1.weight  |     64     |
+|     post.0.weight      |    9216    |
+|      post.0.bias       |     16     |
+|     post.1.weight      |     16     |
+|     post.2.weight      |    432     |
+|      post.2.bias       |     3      |
++------------------------+------------++------------------------+------------+
+|        Modules         | Parameters |
++------------------------+------------+
+|      pre.0.weight      |    432     |
+|       pre.0.bias       |     16     |
+|      pre.1.weight      |     16     |
+| conv00.main.0.0.weight |    2304    |
+|  conv00.main.0.0.bias  |     16     |
+| conv00.main.0.1.weight |     16     |
+| conv00.main.1.0.weight |    2304    |
+|  conv00.main.1.0.bias  |     16     |
+| conv00.main.1.1.weight |     16     |
+| conv00.main.2.0.weight |    2304    |
+|  conv00.main.2.0.bias  |     16     |
+| conv00.main.2.1.weight |     16     |
+|  conv00.post.0.weight  |   18432    |
+|   conv00.post.0.bias   |     32     |
+|  conv00.post.1.weight  |     32     |
+| conv10.main.0.0.weight |    9216    |
+|  conv10.main.0.0.bias  |     32     |
+| conv10.main.0.1.weight |     32     |
+| conv10.main.1.0.weight |    9216    |
+|  conv10.main.1.0.bias  |     32     |
+| conv10.main.1.1.weight |     32     |
+| conv10.main.2.0.weight |    9216    |
+|  conv10.main.2.0.bias  |     32     |
+| conv10.main.2.1.weight |     32     |
+|  conv10.post.0.weight  |   73728    |
+|   conv10.post.0.bias   |     64     |
+|  conv10.post.1.weight  |     64     |
+| conv20.main.0.0.weight |   36864    |
+|  conv20.main.0.0.bias  |     64     |
+| conv20.main.0.1.weight |     64     |
+| conv20.main.1.0.weight |   36864    |
+|  conv20.main.1.0.bias  |     64     |
+| conv20.main.1.1.weight |     64     |
+| conv20.main.2.0.weight |   36864    |
+|  conv20.main.2.0.bias  |     64     |
+| conv20.main.2.1.weight |     64     |
+|  conv20.post.0.weight  |   294912   |
+|   conv20.post.0.bias   |    128     |
+|  conv20.post.1.weight  |    128     |
+| conv30.main.0.0.weight |   147456   |
+|  conv30.main.0.0.bias  |    128     |
+| conv30.main.0.1.weight |    128     |
+| conv30.main.1.0.weight |   147456   |
+|  conv30.main.1.0.bias  |    128     |
+| conv30.main.1.1.weight |    128     |
+| conv30.main.2.0.weight |   147456   |
+|  conv30.main.2.0.bias  |    128     |
+| conv30.main.2.1.weight |    128     |
+|  conv30.post.0.weight  |  1179648   |
+|   conv30.post.0.bias   |    256     |
+|  conv30.post.1.weight  |    256     |
+| conv31.main.0.0.weight |   589824   |
+|  conv31.main.0.0.bias  |    256     |
+| conv31.main.0.1.weight |    256     |
+| conv31.main.1.0.weight |   589824   |
+|  conv31.main.1.0.bias  |    256     |
+| conv31.main.1.1.weight |    256     |
+| conv31.main.2.0.weight |   589824   |
+|  conv31.main.2.0.bias  |    256     |
+| conv31.main.2.1.weight |    256     |
+|  conv31.post.0.weight  |  4718592   |
+|   conv31.post.0.bias   |    512     |
+|  conv31.post.1.weight  |    512     |
+| conv21.main.0.0.weight |   147456   |
+|  conv21.main.0.0.bias  |    128     |
+| conv21.main.0.1.weight |    128     |
+| conv21.main.1.0.weight |   147456   |
+|  conv21.main.1.0.bias  |    128     |
+| conv21.main.1.1.weight |    128     |
+| conv21.main.2.0.weight |   147456   |
+|  conv21.main.2.0.bias  |    128     |
+| conv21.main.2.1.weight |    128     |
+|  conv21.post.0.weight  |  1179648   |
+|   conv21.post.0.bias   |    256     |
+|  conv21.post.1.weight  |    256     |
+| conv11.main.0.0.weight |   36864    |
+|  conv11.main.0.0.bias  |     64     |
+| conv11.main.0.1.weight |     64     |
+| conv11.main.1.0.weight |   36864    |
+|  conv11.main.1.0.bias  |     64     |
+| conv11.main.1.1.weight |     64     |
+| conv11.main.2.0.weight |   36864    |
+|  conv11.main.2.0.bias  |     64     |
+| conv11.main.2.1.weight |     64     |
+|  conv11.post.0.weight  |   294912   |
+|   conv11.post.0.bias   |    128     |
+|  conv11.post.1.weight  |    128     |
+| conv01.main.0.0.weight |    9216    |
+|  conv01.main.0.0.bias  |     32     |
+| conv01.main.0.1.weight |     32     |
+| conv01.main.1.0.weight |    9216    |
+|  conv01.main.1.0.bias  |     32     |
+| conv01.main.1.1.weight |     32     |
+| conv01.main.2.0.weight |    9216    |
+|  conv01.main.2.0.bias  |     32     |
+| conv01.main.2.1.weight |     32     |
+|  conv01.post.0.weight  |   73728    |
+|   conv01.post.0.bias   |     64     |
+|  conv01.post.1.weight  |     64     |
+|     post.0.weight      |    9216    |
+|      post.0.bias       |     16     |
+|     post.1.weight      |     16     |
+|     post.2.weight      |    432     |
+|      post.2.bias       |     3      |
++------------------------+------------+
+
+Total Trainable Params: 10788547Total Trainable Params: 10788547
+
++------------------------+------------+
+|        Modules         | Parameters |
++------------------------+------------+
+|      pre.0.weight      |    432     |
+|       pre.0.bias       |     16     |
+|      pre.1.weight      |     16     |
+| conv00.main.0.0.weight |    2304    |
+|  conv00.main.0.0.bias  |     16     |
+| conv00.main.0.1.weight |     16     |
+| conv00.main.1.0.weight |    2304    |
+|  conv00.main.1.0.bias  |     16     |
+| conv00.main.1.1.weight |     16     |
+| conv00.main.2.0.weight |    2304    |
+|  conv00.main.2.0.bias  |     16     |
+| conv00.main.2.1.weight |     16     |
+|  conv00.post.0.weight  |   18432    |
+|   conv00.post.0.bias   |     32     |
+|  conv00.post.1.weight  |     32     |
+| conv10.main.0.0.weight |    9216    |
+|  conv10.main.0.0.bias  |     32     |
+| conv10.main.0.1.weight |     32     |
+| conv10.main.1.0.weight |    9216    |
+|  conv10.main.1.0.bias  |     32     |
+| conv10.main.1.1.weight |     32     |
+| conv10.main.2.0.weight |    9216    |
+|  conv10.main.2.0.bias  |     32     |
+| conv10.main.2.1.weight |     32     |
+|  conv10.post.0.weight  |   73728    |
+|   conv10.post.0.bias   |     64     |
+|  conv10.post.1.weight  |     64     |
+| conv20.main.0.0.weight |   36864    |
+|  conv20.main.0.0.bias  |     64     |
+| conv20.main.0.1.weight |     64     |
+| conv20.main.1.0.weight |   36864    |
+|  conv20.main.1.0.bias  |     64     |
+| conv20.main.1.1.weight |     64     |
+| conv20.main.2.0.weight |   36864    |
+|  conv20.main.2.0.bias  |     64     |
+| conv20.main.2.1.weight |     64     |
+|  conv20.post.0.weight  |   294912   |
+|   conv20.post.0.bias   |    128     |
+|  conv20.post.1.weight  |    128     |
+| conv30.main.0.0.weight |   147456   |
+|  conv30.main.0.0.bias  |    128     |
+| conv30.main.0.1.weight |    128     |
+| conv30.main.1.0.weight |   147456   |
+|  conv30.main.1.0.bias  |    128     |
+| conv30.main.1.1.weight |    128     |
+| conv30.main.2.0.weight |   147456   |
+|  conv30.main.2.0.bias  |    128     |
+| conv30.main.2.1.weight |    128     |
+|  conv30.post.0.weight  |  1179648   |
+|   conv30.post.0.bias   |    256     |
+|  conv30.post.1.weight  |    256     |
+| conv31.main.0.0.weight |   589824   |
+|  conv31.main.0.0.bias  |    256     |
+| conv31.main.0.1.weight |    256     |
+| conv31.main.1.0.weight |   589824   |
+|  conv31.main.1.0.bias  |    256     |
+| conv31.main.1.1.weight |    256     |
+| conv31.main.2.0.weight |   589824   |
+|  conv31.main.2.0.bias  |    256     |
+| conv31.main.2.1.weight |    256     |
+|  conv31.post.0.weight  |  4718592   |
+|   conv31.post.0.bias   |    512     |
+|  conv31.post.1.weight  |    512     |
+| conv21.main.0.0.weight |   147456   |
+|  conv21.main.0.0.bias  |    128     |
+| conv21.main.0.1.weight |    128     |
+| conv21.main.1.0.weight |   147456   |
+|  conv21.main.1.0.bias  |    128     |
+| conv21.main.1.1.weight |    128     |
+| conv21.main.2.0.weight |   147456   |
+|  conv21.main.2.0.bias  |    128     |
+| conv21.main.2.1.weight |    128     |
+|  conv21.post.0.weight  |  1179648   |
+|   conv21.post.0.bias   |    256     |
+|  conv21.post.1.weight  |    256     |
+| conv11.main.0.0.weight |   36864    |
+|  conv11.main.0.0.bias  |     64     |
+| conv11.main.0.1.weight |     64     |
+| conv11.main.1.0.weight |   36864    |
+|  conv11.main.1.0.bias  |     64     |
+| conv11.main.1.1.weight |     64     |
+| conv11.main.2.0.weight |   36864    |
+|  conv11.main.2.0.bias  |     64     |
+| conv11.main.2.1.weight |     64     |
+|  conv11.post.0.weight  |   294912   |
+|   conv11.post.0.bias   |    128     |
+|  conv11.post.1.weight  |    128     |
+| conv01.main.0.0.weight |    9216    |
+|  conv01.main.0.0.bias  |     32     |
+| conv01.main.0.1.weight |     32     |
+| conv01.main.1.0.weight |    9216    |
+|  conv01.main.1.0.bias  |     32     |
+| conv01.main.1.1.weight |     32     |
+| conv01.main.2.0.weight |    9216    |
+|  conv01.main.2.0.bias  |     32     |
+| conv01.main.2.1.weight |     32     |
+|  conv01.post.0.weight  |   73728    |
+|   conv01.post.0.bias   |     64     |
+|  conv01.post.1.weight  |     64     |
+|     post.0.weight      |    9216    |
+|      post.0.bias       |     16     |
+|     post.1.weight      |     16     |
+|     post.2.weight      |    432     |
+|      post.2.bias       |     3      |
++------------------------+------------+
+Total Trainable Params: 10788547
+Start training.
+Start training.
+Start training.
+Start training.
+  0%|          | 0/688 [00:00<?, ?batch/s]  0%|          | 0/688 [00:00<?, ?batch/s]  0%|          | 0/688 [00:00<?, ?batch/s]  0%|          | 0/688 [00:00<?, ?batch/s]  0%|          | 0/688 [00:03<?, ?batch/s]  0%|          | 0/688 [00:03<?, ?batch/s]  0%|          | 0/688 [00:03<?, ?batch/s]
+
+
+  0%|          | 0/688 [00:03<?, ?batch/s]
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/scratch/project_2010479/TAU_DSII/train.py", line 276, in <module>
+  File "/scratch/project_2010479/TAU_DSII/train.py", line 276, in <module>
+  File "/scratch/project_2010479/TAU_DSII/train.py", line 276, in <module>
+Traceback (most recent call last):
+  File "/scratch/project_2010479/TAU_DSII/train.py", line 276, in <module>
+        main(loaded_config, data_path, model_dir, logs_dir)main(loaded_config, data_path, model_dir, logs_dir)
+
+  File "/scratch/project_2010479/TAU_DSII/train.py", line 248, in main
+      File "/scratch/project_2010479/TAU_DSII/train.py", line 248, in main
+main(loaded_config, data_path, model_dir, logs_dir)
+  File "/scratch/project_2010479/TAU_DSII/train.py", line 248, in main
+    main(loaded_config, data_path, model_dir, logs_dir)
+  File "/scratch/project_2010479/TAU_DSII/train.py", line 248, in main
+    trainer.train()    
+trainer.train()
+  File "/scratch/project_2010479/TAU_DSII/train.py", line 165, in train
+      File "/scratch/project_2010479/TAU_DSII/train.py", line 165, in train
+trainer.train()
+  File "/scratch/project_2010479/TAU_DSII/train.py", line 165, in train
+        preds, loss = self._run_batch(inputs, validate=False)preds, loss = self._run_batch(inputs, validate=False)
+
+  File "/scratch/project_2010479/TAU_DSII/train.py", line 135, in _run_batch
+  File "/scratch/project_2010479/TAU_DSII/train.py", line 135, in _run_batch
+    preds, loss = self._run_batch(inputs, validate=False)
+  File "/scratch/project_2010479/TAU_DSII/train.py", line 135, in _run_batch
+    trainer.train()
+  File "/scratch/project_2010479/TAU_DSII/train.py", line 165, in train
+    loss = self.L1(inputs, x_output) + 0.5 * self.PerceptualLoss(x_output, inputs) + 0.1 * self.SSIMLoss(x_output, inputs)
+    loss = self.L1(inputs, x_output) + 0.5 * self.PerceptualLoss(x_output, inputs) + 0.1 * self.SSIMLoss(x_output, inputs)
+  File "/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+  File "/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    loss = self.L1(inputs, x_output) + 0.5 * self.PerceptualLoss(x_output, inputs) + 0.1 * self.SSIMLoss(x_output, inputs)
+  File "/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    preds, loss = self._run_batch(inputs, validate=False)
+  File "/scratch/project_2010479/TAU_DSII/train.py", line 135, in _run_batch
+    loss = self.L1(inputs, x_output) + 0.5 * self.PerceptualLoss(x_output, inputs) + 0.1 * self.SSIMLoss(x_output, inputs)
+  File "/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)    
+return self._call_impl(*args, **kwargs)    
+return self._call_impl(*args, **kwargs)  File "/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    
+  File "/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+  File "/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+        return forward_call(*args, **kwargs)return forward_call(*args, **kwargs)
+    
+    return forward_call(*args, **kwargs)  File "/scratch/project_2010479/TAU_DSII/utils/losses.py", line 186, in forward
+return forward_call(*args, **kwargs)
+  File "/scratch/project_2010479/TAU_DSII/utils/losses.py", line 186, in forward
+
+  File "/scratch/project_2010479/TAU_DSII/utils/losses.py", line 186, in forward
+  File "/scratch/project_2010479/TAU_DSII/utils/losses.py", line 186, in forward
+    y_features = self.vgg_layers(y)
+  File "/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    y_features = self.vgg_layers(y)
+  File "/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    y_features = self.vgg_layers(y)
+  File "/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    y_features = self.vgg_layers(y)
+  File "/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib64/python3.9/site-packages/torch/nn/modules/container.py", line 217, in forward
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib64/python3.9/site-packages/torch/nn/modules/container.py", line 217, in forward
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib64/python3.9/site-packages/torch/nn/modules/container.py", line 217, in forward
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib64/python3.9/site-packages/torch/nn/modules/container.py", line 217, in forward
+        input = module(input)    input = module(input)    
+
+input = module(input)input = module(input)
+  File "/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+  File "/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+
+  File "/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+  File "/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return self._call_impl(*args, **kwargs)    
+return self._call_impl(*args, **kwargs)    
+  File "/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+  File "/usr/local/lib64/python3.9/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib64/python3.9/site-packages/torch/nn/modules/pooling.py", line 164, in forward
+    return forward_call(*args, **kwargs)
+    return forward_call(*args, **kwargs)  File "/usr/local/lib64/python3.9/site-packages/torch/nn/modules/pooling.py", line 164, in forward
+
+  File "/usr/local/lib64/python3.9/site-packages/torch/nn/modules/pooling.py", line 164, in forward
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib64/python3.9/site-packages/torch/nn/modules/pooling.py", line 164, in forward
+    return F.max_pool2d(input, self.kernel_size, self.stride,
+  File "/usr/local/lib64/python3.9/site-packages/torch/_jit_internal.py", line 499, in fn
+    return F.max_pool2d(input, self.kernel_size, self.stride,    
+return F.max_pool2d(input, self.kernel_size, self.stride,    
+return F.max_pool2d(input, self.kernel_size, self.stride,  File "/usr/local/lib64/python3.9/site-packages/torch/_jit_internal.py", line 499, in fn
+
+  File "/usr/local/lib64/python3.9/site-packages/torch/_jit_internal.py", line 499, in fn
+  File "/usr/local/lib64/python3.9/site-packages/torch/_jit_internal.py", line 499, in fn
+        return if_false(*args, **kwargs)    return if_false(*args, **kwargs)
+    return if_false(*args, **kwargs)
+return if_false(*args, **kwargs)
+  File "/usr/local/lib64/python3.9/site-packages/torch/nn/functional.py", line 796, in _max_pool2d
+
+  File "/usr/local/lib64/python3.9/site-packages/torch/nn/functional.py", line 796, in _max_pool2d
+  File "/usr/local/lib64/python3.9/site-packages/torch/nn/functional.py", line 796, in _max_pool2d
+  File "/usr/local/lib64/python3.9/site-packages/torch/nn/functional.py", line 796, in _max_pool2d
+    return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+    return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)    
+return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)    
+return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+torch.cuda.OutOfMemoryErrortorch.cuda: .torch.cudaCUDA out of memory. Tried to allocate 256.00 MiB. GPU 0 has a total capacity of 31.74 GiB of which 125.62 MiB is free. Including non-PyTorch memory, this process has 31.61 GiB memory in use. Of the allocated memory 30.32 GiB is allocated by PyTorch, and 347.31 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)OutOfMemoryError.torch.cuda
+: OutOfMemoryError.CUDA out of memory. Tried to allocate 256.00 MiB. GPU 1 has a total capacity of 31.74 GiB of which 125.62 MiB is free. Including non-PyTorch memory, this process has 31.61 GiB memory in use. Of the allocated memory 30.32 GiB is allocated by PyTorch, and 347.31 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)OutOfMemoryError: 
+CUDA out of memory. Tried to allocate 256.00 MiB. GPU 2 has a total capacity of 31.74 GiB of which 141.62 MiB is free. Including non-PyTorch memory, this process has 31.60 GiB memory in use. Of the allocated memory 30.32 GiB is allocated by PyTorch, and 347.31 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables): 
+CUDA out of memory. Tried to allocate 256.00 MiB. GPU 3 has a total capacity of 31.74 GiB of which 173.62 MiB is free. Including non-PyTorch memory, this process has 31.57 GiB memory in use. Of the allocated memory 30.32 GiB is allocated by PyTorch, and 347.31 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[2024-11-25 16:45:58,090] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: 1) local_rank: 0 (pid: 2224036) of binary: /usr/bin/python3.9
+Traceback (most recent call last):
+  File "/usr/local/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/lib64/python3.9/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 347, in wrapper
+    return f(*args, **kwargs)
+  File "/usr/local/lib64/python3.9/site-packages/torch/distributed/run.py", line 812, in main
+    run(args)
+  File "/usr/local/lib64/python3.9/site-packages/torch/distributed/run.py", line 803, in run
+    elastic_launch(
+  File "/usr/local/lib64/python3.9/site-packages/torch/distributed/launcher/api.py", line 135, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/usr/local/lib64/python3.9/site-packages/torch/distributed/launcher/api.py", line 268, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+train.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2024-11-25_16:45:58
+  host      : r01g01.bullx
+  rank      : 1 (local_rank: 1)
+  exitcode  : 1 (pid: 2224037)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[2]:
+  time      : 2024-11-25_16:45:58
+  host      : r01g01.bullx
+  rank      : 2 (local_rank: 2)
+  exitcode  : 1 (pid: 2224038)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[3]:
+  time      : 2024-11-25_16:45:58
+  host      : r01g01.bullx
+  rank      : 3 (local_rank: 3)
+  exitcode  : 1 (pid: 2224039)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-11-25_16:45:58
+  host      : r01g01.bullx
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 2224036)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+srun: error: r01g01: task 0: Exited with exit code 1
+srun: Terminating StepId=24471434.0

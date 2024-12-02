@@ -1,0 +1,27 @@
+comments: L1 + SSIM 
+network:
+  batch_size: 8
+  epoch: 100
+  image_size:
+  - 256
+  - 256
+  net: unet
+  nn_lr: 1.0e-4
+  num_workers: 8
+optics:
+  aperture_diameter: 7.0e-3
+  delta_s: 5.0e-05
+  f_green: 0.035
+  n_lambda:
+  - 1.4571 # R
+  - 1.461  # G
+  - 1.465  # B
+  wavelength:
+  - 6.3e-07  # R
+  - 5.25e-07 # G
+  - 4.58e-07 # B
+  z_far: 2.2
+  z_near: 1.84
+  zf: 2
+  zs: 0.035623409669211195
+  hardware_lr: 0.02
